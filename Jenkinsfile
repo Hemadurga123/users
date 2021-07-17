@@ -1,13 +1,9 @@
-@Library('roboshop') _
+@Library('todo') _
 
-todoapp (
-    COMPONENT          :  'users',
-    PROJECT_NAME       :  "roboshop",
-    SLAVE_LABEL        :  "NODEJS",
-    SKIP_NEXUS_UPLOAD  :  false,
-    APP_TYPE           :  "NGINX"
+todo (
+        COMPONENT             : 'users',
+        PROJECT_NAME          : "todo",
+        SLAVE_LABEL           : "JAVA",
+        SKIP_NEXUS_UPLOAD     : false,
+        APP_TYPE              : "JAVA"
 )
-
-
-
-
